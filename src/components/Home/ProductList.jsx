@@ -15,7 +15,7 @@ const ProductList = ({searchInput }) => {
   }, [products, searchInput]);
 
   return (
-    <section id="products" className="flex flex-row flex-wrap ">
+    <section id="products" className="flex flex-row flex-wrap justify-center ">
       {isLoading && <Loading />}
       {filteredProducts.length === 0 && !isLoading && (
         <p className="my-auto">No products found.</p>
@@ -36,7 +36,7 @@ const ProductList = ({searchInput }) => {
               View Details
             </Link>
             <button className="bg-blue-500 text-white px-4 py-1 rounded-md cursor-pointer">
-              Pay
+              Add to cart
             </button>
           </div>
         </div>

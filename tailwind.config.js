@@ -9,7 +9,7 @@ export default {
     extend: {},
     container: {
       center: true,
-      padding: "10rem",
+      padding: "2rem",
     }
   },
   plugins: [],

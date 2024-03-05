@@ -16,7 +16,7 @@ const Home = () => {
     <>
       <Navbar />
 
-      <div className="container flex flex-col flex-wrap items-center justify-center text-center py-14">
+      <div className="container flex-col flex flex-wrap items-center justify-center text-center py-14">
         <Hero />
         <Form onChange={handleInputChange} value={searchInput} />
         <ProductList searchInput={searchInput} />

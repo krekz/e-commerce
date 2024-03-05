@@ -42,7 +42,7 @@ const ProductDetail = () => {
         <>
           {/* card */}
           <h1 className="text-3xl font-bold my-5">Product Detail</h1>
-          <div className="flex flex-col items-center gap-5 p-5 rounded-md shadow-md m-5 w-96 ">
+          <div className="flex flex-col items-center gap-5 p-5 rounded-md shadow-md m-5 w-96 h-[200rem] max-h-[200rem]">
             <img
               src={product.image}
               alt={product.title}
